@@ -1,0 +1,128 @@
+:target {
+/* 調整因navbar影響的錨點偏移 */
+    padding-top: 130px;
+    margin-top: -130px;
+}
+
+.bg-brown {
+    background: #4F432F;
+}
+.bg-gold {
+    background: #B99D6D;
+}
+.bg-rice {
+    background: #F5F1E9;
+}
+.bg-gary {
+    background: #e5e5e5;
+}
+.bg-wine{
+    background: #940000;
+}
+.text-brown {
+    color: #4F432F;
+}
+.text-wine {
+    color: #940000;
+}
+.bg-brown-btn:hover {
+    background: #940000;
+    /* box-shadow: 0px 1.5px 0px 0px #4F432F; */
+    color: #4F432F;
+}
+.tele-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.access img:hover {
+    opacity: 0.8;
+}
+.services-item .card img:hover {
+    opacity: 0.5;
+}
+.title-dash {
+    width: 50%;
+    box-shadow: 0px 1.5px 0px 0px #4F432F;
+}
+.link{
+    text-decoration: none;
+    color: #4F432F;
+}
+.link:hover {
+    color: #940000;
+}
+.back{
+    width: 60px;
+    height: 50px;
+}
+#info2 img{
+    max-width: 500px;
+}
+
+@media(min-width:375px) {  
+    
+    .title-dash {
+        width: 70%;
+        box-shadow: 0px 1.5px 0px 0px #4F432F;
+    }
+}
+
+@media (min-width:992px) {
+    .text-box p {
+        line-height: 2;
+    }
+
+}
+
+
+
+/* 以下皆已優化為bs寫法 */
+/* .title-imformation, .title-services, .footer p{
+  text-align: center;
+  letter-spacing: 0.1em;
+} */
+
+/* .mypills{
+  background:#B99D6D;
+  color: #fff;
+  font-size: x-small;
+  padding: 0.2rem;
+  border-radius: 5px;
+
+} */
+
+/* .carousel-on{
+    display: none;
+} */
+
+
+
+
+/* 以下RWD設定：皆已優化為bs寫法 */
+
+/* @media (max-width:768px) {
+    /* .row-byebye{
+        display: none;
+    } */
+
+    /* .carousel-on{
+        display:block;
+    } */
+
+    /* .card-text{
+        display:none;
+    } */
+
+
+    /* .container .bg-brown-btn{
+        width: 100%;
+        margin-top:0.5rem;
+    } 
+}  */
+
+/* @media(min-width:768px) {
+.byebye {
+    display: none;
+}
+} */

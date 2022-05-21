@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表参道あき総合歯科医院</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+  <!-- 以下 導覽列 -->
+  <header class="fixed-top">
+    <div class="top-bar bg-gold tele-top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4F432F" class="bi bi-telephone-fill"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+      </svg>
+      <a href="tel:03-6228-5316" class="text-decoration-none text-white ms-2 me-3 fs-5 d-md-block">03-6228-5316</a>
+      <a href="tel:03-6228-5316">
+        <div class="btn bg-brown btn-md text-white bg-brown-btn me-3 mt-1 mb-1">予約電話</div>
+      </a>
+
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-brown">
+      <div class="container-fluid">
+        <a class="navbar-brand title " href="#">あき歯科クリニック表参道</a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse " id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">当院について</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services">診療内容</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#access">アクセス</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#information">お知らせ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">無料相談予約</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <!-- 以下 首頁旋轉木馬 -->
+  <div class="pt-5">
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/main04.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>First slide label</h5>
+						<p>Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/main02.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Second slide label</h5>
+						<p>Some representative placeholder content for the second slide.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/main03.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+						<p>Some representative placeholder content for the third slide.</p> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- 關於我們｜治療項目｜交通簡介 -->
+  <div class="container">
+
+    <!-- 關於我們 About Us -->
+    <div id="about" class="row justify-content-md-center" ;>
+      <div class="col-7  bg-gary pt-2 ps-3" ;>
+        <div class="mt-2 mb-2  text-box">
+          <h2 class="text-brown">About Us</h2>
+          <h6 class="title-dash">当院について</h6>
+          <div class="box-text">
+            <p class="fs-6 mt-3 pt-lg-5">
+              表参道しらゆり歯科は各分野のプロフェッショナルがチームで治療を行う総合歯科医院です。
+              また、様々な口腔内のお悩みを持つ患者様に最善の治療をご提供するため、マイクロスコープや拡大鏡を使用して精密さを追求しています。
+            </p>
+
+            <p>
+              <button class="btn btn-dark bg-brown btn-md text-white bg-brown-btn" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                aria-controls="collapseWidthExample">
+                私たちを選ぶべき理由
+              </button>
+            </p>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body opacity-75" style="width: 380px;">
+                  <dl>
+                    <dd>総合：どんな歯のお悩みにも対応致します。</dd>
+                    <dd>精密：精密機器を使っています。</dd>
+                    <dd>便利：表参道駅から徒歩3分。</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 d-md-flex" ;>
+        <img class="img-fluid d-none d-md-flex" src="img/S__27115631.jpeg" alt="">
+        <img class="img-fluid d-md-none pt-4" src="img/implant.jpeg" alt="">
+        <img class="img-fluid d-md-none " src="img/bld_02.jpeg" alt="">
+      </div>
+    </div>
+
+    <div class="services mt-3 mb-4" id="services">
+      <div class="title text-center">
+        <span class="text-brown">｜</span>
+        <h2 class="text-brown">Services</h2>
+        <h6>診療内容</h6>
+      </div>
+
+      <!-- 治療項目 Services｜以下手機版才顯示的旋轉木馬 -->
+      <div class="d-md-none">
+
+        <div id="carouselExampleDark" class="carousel slide mb-2" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="img/sv01.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <h5>セラミック治療</h5>
+                <!-- <p>オールセラミックやジルコニアだから、経年変化（変色）しづらく、金属アレルギーの方でも安心です。より天然歯に近い仕上がりに。</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/sv04.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <h5>根管治療</h5>
+                <!-- <p>歯のズキズキとした痛みや膿が出たら、マイクロスコープを使用して、歯の根や神経の治療をします。</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sv03.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-md-block">
+                <h5> 予防処置 (PMTC) </h5>
+                <!-- <p>虫歯の予防は、定期的な歯のクリーニングが大切です。治療後のメンテナンスも重要です。</p> -->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+      <!-- 以下為治療項目卡片，手機版會”隱藏第一排“改為上方旋轉木馬的方式呈現 -->
+      <div class="services-item container">
+
+        <!-- 治療項目第一排 -->
+        <div class="row d-none d-md-flex mb-md-2 justify-content-md-center justify-content-sm-center ">
+
+          <div class="col-4">
+            <div class="card w-100 h-100" ;>
+              <img src="img/sv01.jpeg" class="card-img" alt="...">
+              <div class="card-body">
+                <h6>セラミック治療</h6>
+                <p class="d-md-block">オールセラミックやジルコニアだから、経年変化（変色）しづらく、金属アレルギーの方でも安心です。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card w-100 h-100">
+              <img src="img/sv04.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>根管治療</h6>
+                <p class="d-md-block">歯のズキズキとした痛みや膿が出たら、マイクロスコープを使用して、歯の根や神経の治療をします。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card w-100 h-100">
+              <img src="img/sv03.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>予防処置 (PMTC)</h6>
+                <p class="d-md-block">虫歯の予防は、定期的な歯のクリーニングが大切です。治療後のメンテナンスも重要です。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 治療項目第二排 -->
+        <div class="row justify-content-md-center justify-content-sm-center ">
+
+          <div class="col-4">
+            <div class="card w-100 h-100">
+              <img src="img/sv02.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6> 歯列矯正 </h6>
+                <p class="d-none d-md-block">ワイヤー矯正（表側、裏側）とマウスピース矯正など、ご要望やライフスタイルに合わせた矯正法で理想の歯並びを。</p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="col-4">
+            <div class="card w-100 h-100">
+              <img src="img/sv05.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>インプラント</h6>
+                <p class="d-none d-md-block">治療事故ゼロのグループ医院の技術を継承し、インプラントを生涯機能させる最善策を整えています。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card w-100 h-100">
+              <img src="img/sv06.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6>歯周病治療</h6>
+                <p class="d-none d-md-block">他医院で歯周病と診断されても、歯ぐきの再生治療・歯槽骨の再生治療で完治を目指します。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- 交通簡介 Access -->
+    <div class="access row justify-content-md-center" id="access" ;>
+      <div class="col-7" ;>
+        <img class="img-fluid " src="img/photo03.jpeg" alt="">
+        <img class="img-fluid d-md-none" src="img/main_02.jpeg" alt="">
+        <img class="img-fluid d-md-none" src="img/large_7e1e8983-db1f-4706-818e-e5e5ce129d64.jpeg" alt="">
+      </div>
+      <div class="col-5  bg-gary pt-2 ps-3" ;>
+        <div class="mt-2 mb-2 text-box">
+          <h2 class="text-brown">Access</h2>
+          <h6 class="title-dash">アクセス</h6>
+          <div class="box-text">
+            <p class="fs-6 mt-3 pt-lg-5">
+              表参道駅から徒歩3分
+              通院に便利な立地
+
+              表参道駅から徒歩3分、明治神宮前駅から徒歩6分。アクセスのよい立地で質の高い歯科治療を提供しております。
+            </p>
+
+            <div class="row justify-content-center justify-content-md-around">
+
+              <a href="#map" class="col-10 mt-2 col-md-5 mb-md-0  btn bg-brown btn-md text-white bg-brown-btn">
+                アクセス</a>
+              <a href="tel:03-6228-5316" class="col-10 mt-2 col-md-5 btn bg-brown btn-md text-white bg-brown-btn">直通電話
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 最新消息情報 Information お知らせ-->
+  <div class="bg-rice container-lg pt-4 mb-3">
+    <div id="information" class="text-center mb-2">
+      <span class="text-brown">｜</span>
+      <h2 class="text-brown">Information</h2>
+      <h6>お知らせ</h6>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="pb-2 col">
+        <table class="table table-striped table-hover">
+          <tr>
+            <td>
+              <span>2022.4.20</span> <span class="d-inline-block badge bg-brown">医院からのお知らせ</span>
+              <div class=" ps-2 pe-2 fs-6 link" data-bs-toggle="collapse" href="#info1" role="button"
+                aria-expanded="false" aria-controls="collapseExample">五月の休診日のお知らせ</div>
+              <div class="collapse" id="info1">
+                <div class="card card-body">
+                  <p>
+                    誠に勝手ながら、5月4日(水)～5月6日(金) <br>
+                    は休診日とさせていただきます。 <br>
+                    また、水曜日は引き続き定期休診日とさせていただきます。
+                    何卒ご了承くださいますようお願い申し上げます。</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><span>2022.4.1</span> <span class="d-inline-block badge bg-brown">注意事項・ご案内</span>
+              <div class=" ps-2 pe-2 fs-6 link" data-bs-toggle="collapse" href="#info2" role="button"
+                aria-expanded="false" aria-controls="collapseExample">当院のCovid-19感染防止における対応について</div>
+              <div class="collapse" id="info2">
+                <div class="card card-body">
+                  <img class="rounded w-100" src="img/covid.png" alt="">
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><span>2022.3.22</span> <span class="d-inline-block badge bg-brown">医院からのお知らせ</span>
+              <div class=" ps-2 pe-2 fs-6 link" data-bs-toggle="collapse" href="#info3" role="button"
+                aria-expanded="false" aria-controls="collapseExample">四月の休診日のお知らせ</div>
+              <div class="collapse" id="info3">
+                <div class="card card-body">
+                  <p>
+                    誠に勝手ながら、4月27日(水)～4月29日(金) <br>
+                    は休診日とさせていただきます。 <br>
+                    また、水曜日は引き続き定期休診日とさせていただきます。
+                    何卒ご了承くださいますようお願い申し上げます。</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><span>2022.2.3</span> <span class="d-inline-block badge bg-brown">医院からのお知らせ</span>
+              <div class=" ps-2 pe-2 fs-6 link" data-bs-toggle="collapse" href="#info4" role="button"
+                aria-expanded="false" aria-controls="collapseExample"> 03月08日(火) 移転開院致します </div>
+              <div class="collapse" id="info4">
+                <div class="card card-body">
+                  <p>03/07(月)に「あき総合歯科医院」が現住所での診療を終了し、 <br>
+                    03/08日(火)より新たに「あき歯科クリニック表参道」として移転オープン致します。
+                  </p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+  <!-- 地圖 -->
+  <div class="container" id="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.415418408084!2d139.70948971559386!3d35.66677188019772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d1155776277%3A0x5486a23403b68a27!2z5Lit5p2R5q2v56eR44Kv44Oq44OL44OD44Kv6KGo5Y-C6YGT!5e0!3m2!1szh-TW!2stw!4v1649866683546!5m2!1szh-TW!2stw"
+      width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- 地圖 -->
+    <div class="row">
+      <div class="col-12 col-md-8 bg-rice pt-3 pb-5 ">
+        <!-- 諮詢預約 相談予約（表單區塊）-->
+        <!-- 下述action暫時空白，我目前還不會php(哭) -->
+        <form name="soudan" action="" class="needs-validation" novalidate>
+          <!-- + onsubmit="submitOk()"-->
+          <h4 class="text-brown mb-3 fw-bold">相談予約</h4>
+
+          <div id="contact" class="row">
+            <div class="col mb-2 form-group">
+              <label for="name" class="form-label">お名前</label>
+              <input id="name" type="text" class="form-control" placeholder="石井亜希" aria-label="name" name="name"
+                required>
+              <!-- <div class="valid-feedback">成功</div> -->
+              <!-- <div class="invalid-feedback">失敗</div> -->
+            </div>
+
+            <div class="col form-group">
+              <label for="name-free" class="form-label">ふりがな</label>
+              <input id="name-free" type="text" class="form-control" placeholder="イシイアキ" aria-label="furigana"
+                name="name-free" required>
+              <!-- <div class="valid-feedback">成功</div> -->
+              <!-- <div class="invalid-feedback">失敗</div> -->
+            </div>
+          </div>
+          <div class="col-3 mb-2 form-group d-inline-block">
+            <label for="tel1" class="form-label">電話番号</label>
+            <input id="tel1" type="tel" class="form-control" placeholder="090" name="tel" pattern="[0-9]{3}"
+              maxlength="3" required>
+            <!-- <div class="valid-feedback">成功</div> -->
+            <!-- <div class="invalid-feedback">失敗</div> -->
+          </div>
+          <span>-</span>
+          <div class="col-4 mb-2 form-group d-inline-block">
+            <label for="tel2" class="form-label">
+
+            </label>
+            <input id="tel2" type="tel" class="form-control" placeholder="1234" name="tel" pattern="[0-9]{4}"
+              maxlength="4" required>
+            <!-- <div class="valid-feedback">成功</div> -->
+            <!-- <div class="invalid-feedback">失敗</div> -->
+          </div>
+          <span>-</span>
+          <div class="col-4 mb-2 form-group d-inline-block">
+            <label for="tel3" class="form-label">
+
+            </label>
+            <input id="tel3" type="tel" class="form-control" placeholder="5678" name="tel" pattern="[0-9]{4}"
+              maxlength="4" required>
+            <!-- <div class="valid-feedback">成功</div> -->
+            <!-- <div class="invalid-feedback">失敗</div> -->
+          </div>
+          <div class="mb-3 form-group">
+            <label for="mail" class="form-label">メールアドレス</label>
+            <input id="mail" type="email" class="form-control" placeholder="name@example.com" name="mail" required>
+            <!-- <div class="valid-feedback">成功</div> -->
+            <!-- <div class="invalid-feedback">失敗</div> -->
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="kyoksei" name="soudan" value="option1" required>
+            <label class="form-check-label" for="kyoksei">歯列矯正</label>
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="seramikku" name="soudan" value="option2" required>
+            <label class="form-check-label" for="seramikku">セラミック治療</label>
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="kon" name="soudan" value="option3" required>
+            <label class="form-check-label" for="kon">根管治療</label>
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="teethwhite" name="soudan" value="option4" required>
+            <label class="form-check-label" for="teethwhite">オフィスホワイトニング</label>
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="shisyuu" name="soudan" value="option5" required>
+            <label class="form-check-label" for="shisyuu">歯周病</label>
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="PMTC" name="soudan" value="option6" required>
+            <label class="form-check-label" for="PMTC">PMTC</label>
+
+          </div>
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="other" name="soudan" value="option7" required>
+            <label class="form-check-label" for="other">その他</label>
+          </div>
+
+          <p class="form-text">※1個以上必ずチェックしてください。</p>
+          <!-- <p style="font-size: x-small;">治療科目が1個以上チェックされていません。</p> -->
+
+          <div class="mb-1">
+            <label for="contact-text" class="form-label">ご相談内容</label>
+            <textarea class="form-control" id="contact-text" name="contact-text" rows="3" required></textarea>
+          </div>
+
+          <div class="form-check form-group form-check-inline">
+            <input class="form-check-input" type="radio" id="finalCheck" name="finalCheck" value="option8" required>
+            <label class="form-check-label text-secondary" for="finalCheck">内容をご確認の上チェックを入れてください。</label>
+          </div>
+
+
+
+          <button type="submit" value="Submit" class="btn bg-brown btn-md text-white bg-brown-btn"
+            type="submit">送信する</button>
+
+        </form>
+
+        <hr>
+
+        <!-- 營業時間 地址資訊 Contact Us -->
+      </div>
+      <div class="col-12 col-md-4 pt-3 pb-3">
+        <h4 class="text-brown mb-3 pt-md-4 title-dash">Contact Us</h4>
+        <div class="pt-md-5">
+          <dl>
+            <dt>TEL</dt>
+            <dd><a class="link" href="tel:0120118041">0120-118-041 <span class="badge bg-wine">初回専用</span></a></dd>
+            <dd><a class="link" href="tel:0362285316">03-6228-5316 <span class="badge bg-success">医院直通</span></a></dd>
+          </dl>
+          <dl>
+            <dt>診療時間</dt>
+            <dd>平日 11:00～13:00 / 14:30～20:00</dd>
+            <dd>土日 10:00～13:00 / 14:30～18:00</dd>
+          </dl>
+          <dl>
+            <dt>休診日</dt>
+            <dd>木曜・祝日</dd>
+          </dl>
+          <dl>
+            <dt>あき歯科クリニック表参道</dt>
+            <dd>〒107-0061</dd>
+            <dd>東京都港区北青山3丁目5-40 YCビルⅡ 1階</dd>
+          </dl>
+          <a class="d-block ms-auto back btn bg-brown-btn bg-brown sticky-top" href="#"><svg class="text-white"
+              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-brown pt-2 pb-1">
+    <p class="text-white text-center">© OmotesandoAki Dental ClinicAll rights reserved.</p>
+  </div>
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>
